@@ -1,0 +1,354 @@
+{
+    "artists": [
+        {
+            "id": 1,
+            "fName": "Olivia",
+            "lName": "Maison",
+            "email": "oliviamaison@email.com",
+            "password": "nfJHA7Gn"
+        },
+        {
+            "id": 2,
+            "fName": "Jeremy",
+            "lName": "Bishop",
+            "email": "jeremybishop@email.com",
+            "password": "d4EXGHL6"
+        },
+        {
+            "id": 3,
+            "fName": "Kelly",
+            "lName": "Bryant",
+            "email": "kellybryant@email.com",
+            "password": "fy4ZMnj1"
+        },
+        {
+            "id": 4,
+            "fName": "Jade",
+            "lName": "Mills",
+            "email": "jademills@email.com",
+            "password": "tpW2to7x"
+        },
+        {
+            "id": 5,
+            "fName": "Diane",
+            "lName": "Copeland",
+            "email": "dianecopeland@email.com",
+            "password": "1GJiKL91"
+        },
+        {
+            "id": 6,
+            "fName": "Kent",
+            "lName": "Rivers",
+            "email": "kentrivers@email.com",
+            "password": "5hc9m1ny"
+        },
+        {
+            "id": 7,
+            "fName": "Rosa",
+            "lName": "Hampton",
+            "email": "rosahampton@email.com",
+            "password": "C6FhNUa0"
+        },
+        {
+            "id": 8,
+            "fName": "Nicholas",
+            "lName": "Fitzgerald",
+            "email": "nicholasfitzgerald@email.com",
+            "password": "FERdrh5u"
+        },
+        {
+            "id": 9,
+            "fName": "Amber",
+            "lName": "Parks",
+            "email": "amberparks@email.com",
+            "password": "Z9j5gNsh"
+        },
+        {
+            "id": 10,
+            "fName": "Eddie",
+            "lName": "Howard",
+            "email": "eddiehoward@email.com",
+            "password": "aM02uT06"
+        }
+    ],
+
+
+
+
+
+    "artWorks": [
+        {
+            "id": 1,
+            "name": "Spring in Paris",
+            "artistId": 1,
+            "pics": [],
+            "price": "3700",
+            "size": "120 x 160",
+            "materials": "Acrylic on canvas",
+            "year": "2015",
+            "description" : "Spring in Paris is an incredibly fabulous phenomenon. In Paris, sakura, cherry and magnolia bloom, the light is incredibly beautiful, and the romance is exacerbated. I love Paris and dream of visiting it again while I paint it and enjoy it. I hope that my paintings reflect my feelings and will find a response in the hearts of the same romantics and lovers of Paris as me. The choice in the materials fell on pastels, because pastels can write and convey any nuances and create both realistic and emotional pictures. And also dry pastel is my favorite material in painting and drawing. I hope that my work will delight the happy owner of this picture, and possibly my other works. I paint and write with love!",
+            "frame": true
+        },
+        {
+            "id": 2,
+            "name": "A Sunday Afternoon",
+            "artistId": 2,
+            "pics": [],
+            "price": "1650",
+            "size": "100 x 150",
+            "materials": "Watercolors",
+            "year": "2012",
+            "description" : "Sunday depicts a spare street scene. In the foreground, a solitary, middle-aged man sits on a sunlit curb, smoking a cigar. Behind him is a row of old wooden buildings, their darkened and shaded windows suggesting stores, perhaps closed for the weekend or permanently.",
+            "frame": false
+        },
+        {
+            "id": 3,
+            "name": "Wild Roses",
+            "artistId": 3,
+            "pics": [],
+            "price": "800",
+            "size": "120 x 80",
+            "materials": "Oil on Canvas",
+            "year": "2018",
+            "description" : "Nostalgic double-flowered blooms with a lighter border and delicate pink petals: it radiates a lovely, romantic charm. It has a light scent, produces an abundance of flowers and has a low and compact growth habit. It looks beautiful planted in the garden as well as grown in tubs and pots.",
+            "frame": true
+        },
+        {
+            "id": 4,
+            "name": "Night",
+            "artistId": 4,
+            "pics": [],
+            "price": "980",
+            "size": "120 x 120",
+            "materials": "Oil on Canvas",
+            "year": "2017",
+            "description" : "It is a play between the bright, bustling cafe and the dark, ambiguous street. You can really feel the warmth of the cafe lights. This is the power of color contrast. The right colors in the right spots can do remarkable things.",
+            "frame": false
+        },
+        {
+            "id": 5,
+            "name": "Abstract with yellow",
+            "artistId": 5,
+            "pics": [],
+            "price": "1000",
+            "size": "120 x 160",
+            "materials": "Acrylic on canvas",
+            "year": "2023",
+            "description" : "This warm yellow abstract painting is textured and colorful. Touches of red and orange balance with a blue gray skyline. The square format presents balance and unity.",
+            "frame": true
+        },
+        {
+            "id": 6,
+            "name": "Deep into the forest",
+            "artistId": 6,
+            "pics": [],
+            "price": "2100",
+            "size": "80 x 120",
+            "materials": "Oil on Canvas",
+            "year": "2020",
+            "description" : "The painting depicts a coniferous forest, composed of evergreen trees. The pine and spruce trees emphasize the eternity of the natural world. The large dominant trees create the impression that the viewer is inside an impassable hidden thicket, where the bear family feels comfortable playing on a broken pine tree.",
+            "frame": true
+        },
+        {
+            "id": 7,
+            "name": "By the sea",
+            "artistId": 7,
+            "pics": [],
+            "price": "2300",
+            "size": "120 x 80",
+            "materials": "Oil on Canvas",
+            "year": "2022",
+            "description" : " A seascape painting is simply a work of art in which the ocean or major body of water is one of the central elements of the work. Falling under their own genre, seascapes' close cousins, marine and maritime paintings, focus more on ships or other manmade objects in a narrative composition.",
+            "frame": true
+        },
+        {
+            "id": 8,
+            "name": "On the Terrace",
+            "artistId": 8,
+            "pics": [],
+            "price": "1400",
+            "size": "120 x 180",
+            "materials": "Oil on Canvas",
+            "year": "2005",
+            "description" : "It is Spring and the trees behind the terrace seem to be in early leaf. The vines and plants that snake their way around the ironwork of the terrace are beginning to show fresh new life.",
+            "frame": false
+        },
+        {
+            "id": 9,
+            "name": "Summer Sunset",
+            "artistId": 9,
+            "pics": [],
+            "price": "1500",
+            "size": "100 x 70",
+            "materials": "Oil on Canvas",
+            "year": "2017",
+            "description" : "Sunset Painting is inspired by sky and nature. Artwork is painted for abstract nature and sunsets lovers.",
+            "frame": true
+        },
+        {
+            "id": 10,
+            "name": "Confidence",
+            "artistId": 10,
+            "pics": [],
+            "price": "860",
+            "size": "90 x 70 cm",
+            "materials": "Acrylic on canvas",
+            "year": "2021",
+            "description" : "Confidence Painting is an artwork that depicts the confidence in yor mind or in your wings. It is colorful art perfect for people who loves bluebirds. Artwork is also fitting in time for Bluebird of Happiness Day.",
+            "frame": true
+        }
+    ],
+
+
+
+
+
+    "payments": [
+        "Visa/Mastercard", "PayPal", "Klarna"
+    ],
+
+
+
+
+
+    "deliveryType": [
+        "DHL", "Hermes", "FedEx"
+    ],
+
+
+
+
+
+    "ordersInfo": [
+        {
+            "id": 1,
+            "artWorkId": 1,
+            "firstName": "John",
+            "lastName": "Smith",
+            "email": "johnsmith@email.com",
+            "address": "3643 Flanigan Oaks Drive",
+            "phoneNumber": "7074907578",
+            "city": "Orlando, FL",
+            "country": "the USA",
+            "paymentMethod": "Paypal",
+            "deliveryType": "FedEx"  
+        },
+        {
+            "id": 2,
+            "artWorkId": 3,
+            "firstName": "Zach",
+            "lastName": "Carter",
+            "email": "zachhhcarter@email.com",
+            "address": "3556 Coplin Avenue",
+            "phoneNumber": "9567617939",
+            "city": "Phoenix, AZ",
+            "country": "the USA",
+            "paymentMethod": "Paypal",
+            "deliveryType": "FedEx"  
+        },
+        {
+            "id": 3,
+            "artWorkId": 5,
+            "firstName": "Daniela",
+            "lastName": "Holland",
+            "email": "daniella-daniella@email.com",
+            "address": "Prenzlauer Allee 48",
+            "phoneNumber": "08406949146",
+            "city": "Halle",
+            "country": "Germany",
+            "paymentMethod": "Visa/Mastercard",
+            "deliveryType": "Hermes"  
+        },
+        {
+            "id": 4,
+            "artWorkId": 7,
+            "firstName": "Alisha",
+            "lastName": "Trevino",
+            "email": "alisha123@email.com",
+            "address": " Stresemannstr. 20",
+            "phoneNumber": "06506593576",
+            "city": "Freisen",
+            "country": "Germany",
+            "paymentMethod": "Visa/Mastercard",
+            "deliveryType": "DHL"  
+        },
+        {
+            "id": 5,
+            "artWorkId": 9,
+            "firstName": "Tristan",
+            "lastName": "Pennington",
+            "email": "trist.pennington@email.com",
+            "address": "Alter Wall 74",
+            "phoneNumber": "06851700369",
+            "city": "Karlstadt",
+            "country": "Germany",
+            "paymentMethod": "Klarna",
+            "deliveryType": "Hermes"  
+        },
+        {
+            "id": 6,
+            "artWorkId": 2,
+            "firstName": "Samir",
+            "lastName": "Palmer",
+            "email": "samirpalmer@email.com",
+            "address": " Joachimstaler Str. 74",
+            "phoneNumber": "04123872367",
+            "city": "Munich",
+            "country": "Germany",
+            "paymentMethod": "Visa/Mastercard",
+            "deliveryType": "DHL"  
+        },
+        {
+            "id": 7,
+            "artWorkId": 4,
+            "firstName": "Lilly-Rose",
+            "lastName": "Jordan",
+            "email": "lillyJ@email.com",
+            "address": "Blumenstr",
+            "phoneNumber": "08642754570",
+            "city": "Munich",
+            "country": "Germany",
+            "paymentMethod": "Paypal",
+            "deliveryType": "DHL"  
+        },
+        {
+            "id": 8,
+            "artWorkId": 6,
+            "firstName": "Sahar",
+            "lastName": "Benson",
+            "email": "sahar.benson@email.com",
+            "address": "75 Place de la Gare",
+            "phoneNumber": "33472116654",
+            "city": "Paris",
+            "country": "France",
+            "paymentMethod": "Klarna",
+            "deliveryType": "Hermes"  
+        },
+        {
+            "id": 9,
+            "artWorkId": 8,
+            "firstName": "Irene",
+            "lastName": "Shaffer",
+            "email": "ireneshaffer@email.com",
+            "address": "3 George Street",
+            "phoneNumber": "01632960245",
+            "city": "London",
+            "country": "the UK",
+            "paymentMethod": "Visa/Mastercard",
+            "deliveryType": "Hermes"  
+        },
+        {
+            "id": 10,
+            "artWorkId": 10,
+            "firstName": "Carlos",
+            "lastName": "Bates",
+            "email": "carlosbates@email.com",
+            "address": "Konstanzer Strasse 46",
+            "phoneNumber": "02151327053",
+            "city": "Berlin",
+            "country": "Germany",
+            "paymentMethod": "Visa/Mastercard",
+            "deliveryType": "DHL"  
+        }
+    ]
+}
