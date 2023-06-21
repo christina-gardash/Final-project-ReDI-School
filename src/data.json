@@ -87,7 +87,8 @@
             "materials": "Acrylic on canvas",
             "year": "2015",
             "description" : "Spring in Paris is an incredibly fabulous phenomenon. In Paris, sakura, cherry and magnolia bloom, the light is incredibly beautiful, and the romance is exacerbated. I love Paris and dream of visiting it again while I paint it and enjoy it. I hope that my paintings reflect my feelings and will find a response in the hearts of the same romantics and lovers of Paris as me. The choice in the materials fell on pastels, because pastels can write and convey any nuances and create both realistic and emotional pictures. And also dry pastel is my favorite material in painting and drawing. I hope that my work will delight the happy owner of this picture, and possibly my other works. I paint and write with love!",
-            "frame": true
+            "frame": true,
+            "categoryId": 4
         },
         {
             "id": 2,
@@ -99,7 +100,8 @@
             "materials": "Watercolors",
             "year": "2012",
             "description" : "Sunday depicts a spare street scene. In the foreground, a solitary, middle-aged man sits on a sunlit curb, smoking a cigar. Behind him is a row of old wooden buildings, their darkened and shaded windows suggesting stores, perhaps closed for the weekend or permanently.",
-            "frame": false
+            "frame": false,
+            "categoryId": 2
         },
         {
             "id": 3,
@@ -111,7 +113,8 @@
             "materials": "Oil on Canvas",
             "year": "2018",
             "description" : "Nostalgic double-flowered blooms with a lighter border and delicate pink petals: it radiates a lovely, romantic charm. It has a light scent, produces an abundance of flowers and has a low and compact growth habit. It looks beautiful planted in the garden as well as grown in tubs and pots.",
-            "frame": true
+            "frame": true,
+            "categoryId": 5
         },
         {
             "id": 4,
@@ -123,7 +126,8 @@
             "materials": "Oil on Canvas",
             "year": "2017",
             "description" : "It is a play between the bright, bustling cafe and the dark, ambiguous street. You can really feel the warmth of the cafe lights. This is the power of color contrast. The right colors in the right spots can do remarkable things.",
-            "frame": false
+            "frame": false,
+            "categoryId": 4
         },
         {
             "id": 5,
@@ -135,7 +139,8 @@
             "materials": "Acrylic on canvas",
             "year": "2023",
             "description" : "This warm yellow abstract painting is textured and colorful. Touches of red and orange balance with a blue gray skyline. The square format presents balance and unity.",
-            "frame": true
+            "frame": true,
+            "categoryId": 1
         },
         {
             "id": 6,
@@ -147,7 +152,8 @@
             "materials": "Oil on Canvas",
             "year": "2020",
             "description" : "The painting depicts a coniferous forest, composed of evergreen trees. The pine and spruce trees emphasize the eternity of the natural world. The large dominant trees create the impression that the viewer is inside an impassable hidden thicket, where the bear family feels comfortable playing on a broken pine tree.",
-            "frame": true
+            "frame": true,
+            "categoryId": 5
         },
         {
             "id": 7,
@@ -159,7 +165,8 @@
             "materials": "Oil on Canvas",
             "year": "2022",
             "description" : " A seascape painting is simply a work of art in which the ocean or major body of water is one of the central elements of the work. Falling under their own genre, seascapes' close cousins, marine and maritime paintings, focus more on ships or other manmade objects in a narrative composition.",
-            "frame": true
+            "frame": true,
+            "categoryId": 3
         },
         {
             "id": 8,
@@ -171,7 +178,8 @@
             "materials": "Oil on Canvas",
             "year": "2005",
             "description" : "It is Spring and the trees behind the terrace seem to be in early leaf. The vines and plants that snake their way around the ironwork of the terrace are beginning to show fresh new life.",
-            "frame": false
+            "frame": false,
+            "categoryId": 2
         },
         {
             "id": 9,
@@ -183,7 +191,8 @@
             "materials": "Oil on Canvas",
             "year": "2017",
             "description" : "Sunset Painting is inspired by sky and nature. Artwork is painted for abstract nature and sunsets lovers.",
-            "frame": true
+            "frame": true,
+            "categoryId": 3
         },
         {
             "id": 10,
@@ -195,7 +204,8 @@
             "materials": "Acrylic on canvas",
             "year": "2021",
             "description" : "Confidence Painting is an artwork that depicts the confidence in yor mind or in your wings. It is colorful art perfect for people who loves bluebirds. Artwork is also fitting in time for Bluebird of Happiness Day.",
-            "frame": true
+            "frame": true,
+            "categoryId": 2
         }
     ],
 
@@ -349,6 +359,38 @@
             "country": "Germany",
             "paymentMethod": "Visa/Mastercard",
             "deliveryType": "DHL"  
+        }
+    ],
+
+
+
+
+
+    "categories": [
+        {
+            "id": 1, 
+            "name": "Abstract",
+            "pic": "https://ik.imagekit.io/tkvucxczh/ReDI_School__Final_project__Art_Marketplace_/categor1.jpg?updatedAt=1687264681032"
+        },
+        {
+            "id": 2, 
+            "name": "People",
+            "pic": "https://ik.imagekit.io/tkvucxczh/ReDI_School__Final_project__Art_Marketplace_/categor2.jpg?updatedAt=1687264680914"
+        },
+        {
+            "id": 3, 
+            "name": "Summertime",
+            "pic": "https://ik.imagekit.io/tkvucxczh/ReDI_School__Final_project__Art_Marketplace_/categor3.jpg?updatedAt=1687265463646"
+        },
+        {
+            "id": 4, 
+            "name": "City views",
+            "pic": "https://ik.imagekit.io/tkvucxczh/ReDI_School__Final_project__Art_Marketplace_/categor4.jpg?updatedAt=1687264680913"
+        },
+        {
+            "id": 5, 
+            "name": "Nature",
+            "pic": "https://ik.imagekit.io/tkvucxczh/ReDI_School__Final_project__Art_Marketplace_/categor5.jpg?updatedAt=1687265398012"
         }
     ]
 }
