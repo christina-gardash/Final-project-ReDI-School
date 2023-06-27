@@ -1,0 +1,294 @@
+.color_main {
+    background-color: #777EC0;
+}
+
+.color_green {
+    background-color: rgb(20, 163, 115)
+}
+
+
+.color_second {
+    background-color: #3C3C3C;
+}
+
+
+.navStyle {
+    background-color: #777EC0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+
+.bnDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.button1 {
+    background-color: rgb(104, 104, 104);
+    color: white;
+    margin: 5px;
+    border-radius: 30px;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: larger;
+    font-weight: 700;
+}
+
+.formStyle {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 24px;
+}
+
+input {
+    border: 0.5px solid rgb(145, 160, 187);
+    height: 40px;
+    padding-left: 15px;
+}
+
+.loginCTA {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.loginCTA button {
+    background-color: #6386bb;
+}
+
+.items-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.items-section img {
+    height: 200px;
+    /* width: 300px; */
+    margin: 20px 20px 5px 20px;
+    background-size: cover;
+}
+
+.card {
+    text-align:center;
+}
+
+#title-categories {
+    color: rgb(95, 95, 175);
+    font-size: xx-large;
+}
+
+
+.profileIconDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 10px 10px 10px;
+}
+
+ion-icon {
+    font-size: 50px;
+    color: #7b7b7b;
+}
+
+.navbar-end ion-icon {
+    font-size: 35px;
+    color:rgb(66, 65, 65);
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #f1f4f7;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+}
+
+.footerDiv ion-icon {
+    font-size: 32px;
+    margin-bottom: 5px;
+    color:#3c3c3cba;
+}
+
+.footerDiv p {
+    font-weight: 600;
+    color:#434343;
+}
+
+.displayNone {
+    display: none;
+}
+
+.profilepage1 {
+    height: 190px;
+    z-index: 1;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.304), 0 6px 10px 0 rgba(0, 0, 0, 0.278);
+}
+
+.profilepage2 {
+    height: 110px;
+    position: absolute;
+    left: 255px;
+    top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.304), 0 6px 20px 0 rgba(0, 0, 0, 0.278);
+}
+
+.profilepage3 {
+    height: 110px;
+    position: absolute;
+    right: 255px;
+    top: 40px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.304), 0 6px 20px 0 rgba(0, 0, 0, 0.278);
+}
+
+.buttonProfile2 {
+    background-color: #a0aec0;
+    color: #3C3C3C;
+}
+
+.logoStyle {
+    height: 45px;
+}
+
+textarea {
+    border: 0.5px solid rgb(145, 160, 187);
+}
+
+.uploadImgDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 5px 5px 5px;
+}
+
+.uploadNewImgDiv2 {
+        margin-left: 24px;
+        height: 150px;
+        width: 150px;
+        background-color: #51575e;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+.uploadNewImgDiv2 ion-icon {
+        color: white;
+        font-size: 30px;
+}
+
+.uploadNewImgDiv {
+    margin-left: 24px;
+    height: 150px;
+    width: 150px;
+    background-color: #51575e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.uploadNewImgDiv ion-icon {
+    color: white;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+
+.orderDiv {
+    height: 80px;
+    margin: 0 24px 24px 24px;
+    width: 90%;
+    border: 0.5px solid rgb(145, 160, 187);
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center
+}
+ 
+.balanceDiv {
+    height: 80px;
+    margin: 10px 24px 24px 24px;
+    width: 90%;
+    background-color:#d3dbe6;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+.balanceDiv h2 {
+    font-weight: 400;
+}
+
+.itemInfoImg {
+    width: 80%;    
+    height: 80%;
+    margin: 24px 24px 0px 24px;
+}
+
+.itemInfoTxt {
+    margin-left: 24px;
+    margin-right: 24px;
+    text-align:start;
+    line-height: 30px;
+}
+
+.itemInfoTxt h3 {
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+.itemInfoTxt h4 {
+    font-size: large;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.orderIcon ion-icon {
+    color: rgb(22, 180, 127);
+    font-size: 70px;
+}
+
+.loginImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginImg img {
+    height: 300px;
+}
