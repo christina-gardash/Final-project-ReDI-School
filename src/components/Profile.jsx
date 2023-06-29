@@ -2,10 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function Profile(artists) {
+    const fName = localStorage.getItem("userfName")
+    const lName = localStorage.getItem("userlName")
   return (
     <div>
         <div className='profileIconDiv'><ion-icon className="iconProfile" name="person-circle-outline"></ion-icon></div>
-        <h2>Hi, Name Surname</h2>
+        <h2>Hello, {fName} {lName}!</h2>
 
 
         <div className='relative flex justify-center mb-7 mt-7'>

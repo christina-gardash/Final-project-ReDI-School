@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function ArtworkUpload() {
   return (
     <div>
-        <h2>Artwork details</h2>
+        <h2 className='mt-4'>Artwork details</h2>
 
         <form className='formStyle' action="">
             <label htmlFor="">Artist</label>

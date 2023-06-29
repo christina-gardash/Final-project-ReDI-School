@@ -112,11 +112,12 @@ function Homepage({
       <h2 className="text-2xl my-5 font-semibold">
         Sell your art with us
       </h2>
-      <p className="ml-7">
+      <p className="ml-5 mr-5 mb-3 text-center">With our global reach and art market expertise, our specialists will find the right buyer for your work.</p>
+      <p className="ml-5 mr-5 mb-3 text-center">
         You are an artist and want to sell your art? Sign up here:
       </p>
 
-      <Link to={"/login"}>
+      <Link to={"/signup"}>
         <div className="grid justify-items-center mb-7">
           <button className="btn btn-active color_second rounded-3xl text-white w-40">
             Sign up

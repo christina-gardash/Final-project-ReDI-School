@@ -35,7 +35,7 @@ function App() {
 
 
   return (
-    <div className="App min-h-screen">
+    <div className="App min-h-screen ">
 
       <Nav />
 
@@ -68,7 +68,7 @@ function App() {
           <Route 
           path="/login" 
           element={[ 
-          <Login/> 
+          <Login artists={artists} setartist={setartist}/> 
           ]}/>
 
           <Route path="/signup" element={ <Signup/> }/>
@@ -77,9 +77,9 @@ function App() {
 
           <Route path="/upload_artwork" element={ <ArtworkUpload/> }/>
 
-          <Route path="/my_collection_and_orders" element={ <CollectionAndOrders/> }/>
+          <Route path="/my_collection_and_orders" element={ <CollectionAndOrders artworks={artworks} artist={artist}/> }/>
 
-          <Route path="/create_your_order" element={ <OrderInfo/> }/>
+          <Route path="/create_your_order" element={ <OrderInfo itemInfo={itemInfo}/> }/>
 
           <Route path="/order_status" element={ <OrderStatus/> }/>
 

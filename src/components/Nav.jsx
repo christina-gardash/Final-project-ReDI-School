@@ -11,7 +11,7 @@ function Nav() {
       <div className="navbar-center flex items-center justify-center ">
         <img
           className="logoStyle"
-          src="https://ik.imagekit.io/tkvucxczh/ReDI_School__Final_project__Art_Marketplace_/Group_43.png?updatedAt=1687731931352"
+          src="https://ik.imagekit.io/tkvucxczh/ReDI_School__Final_project__Art_Marketplace_/LOGO.jpg?updatedAt=1687947376782"
           alt=""
         />
       </div>
