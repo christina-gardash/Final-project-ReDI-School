@@ -10,29 +10,25 @@ function ItemInfo({
 
   return (
     <div>
-      <div className="carousel w-full">
+
+      <div className="itemInfoDiv carousel w-full">
         {itemInfo &&
           itemInfo.pics.map((i, j) => (
             <div id={`item${j}`} className="carousel-item w-full">
               <img
                 src={i}
-                className=" itemInfoImg"
+                className="itemInfoImg"
               />
             </div>
           ))}
-       
       </div>
 
       <div className=" flex justify-center items-center w-full gap-3">
-        {itemInfo && itemInfo.pics.map((i, j) => <a  href={`#item${j}`} className="color_third w-10 h-10 rounded-full text-center flex justify-center items-center">
+        {itemInfo && itemInfo.pics.map((i, j) => <a  href={`#item${j}`} className="btnBN color_third w-10 h-10 rounded-full text-center flex justify-center items-center">
           {j + 1}
         </a>)}
-        
       </div>
 
-      {/* {itemInfo.pics.map((i) => (
-        <img className="itemInfoImg" src={i} />
-      ))} */}
 
       <div className="itemInfoTxt">
         <h3 className="pt-3">
@@ -54,17 +50,19 @@ function ItemInfo({
         <p>
           Year: <span className="font-bold">{itemInfo.year}</span>
         </p>
-        <h4 className="font-bold">Description</h4>
-        <p>{itemInfo.description}</p>
+        <h4 className="font-bold mt-6">Description</h4>
+        <p className="parItemInfo text-center">{itemInfo.description}</p>
       </div>
 
       <Link to={"/create_your_order"}>
-        <div className="grid justify-items-center mb-16">
+        <div className="flex justify-center mb-16">
           <button className="color_main btn btn-active rounded-3xl text-white w-40 mt-6">
             Purchase
           </button>
         </div>
       </Link>
+
+      <div className="placeholder h-14"></div>
     </div>
   );
 }

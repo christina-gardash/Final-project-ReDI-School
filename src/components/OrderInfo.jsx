@@ -40,8 +40,8 @@ const date = new Date()
       .catch((i) => console.log(i));
   }, []);
   return (
-    <div>
-      <p className="text-center mt-4 font-semibold">
+    <div className="ordersDiv">
+      <p className="text-center mt-4 mb-4 font-semibold">
         Fill in the form to create your order:{" "}
       </p>
       <form className="formStyle" onSubmit={submitHandler}>
@@ -81,11 +81,11 @@ const date = new Date()
         <label htmlFor="">Country</label>
         <input type="text" name="country" id="country" />
 
-        <div className="grid justify-items-center mb-10">
+        <div className="grid justify-center mb-10">
           
           <button
             type="submit"
-            className="color_main btn btn-active rounded-3xl text-white w-40 mt-2"
+            className="confirmBtn color_main btn btn-active rounded-3xl text-white w-40 mt-2"
           >
             Confirm
           </button>

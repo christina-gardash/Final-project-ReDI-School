@@ -25,7 +25,7 @@ body {
 
 .navStyle {
     /* background-color: #777EC0; */
-    background-color: #d4dce6;
+    background-color: #5b6291;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +72,6 @@ h3 {
     gap: 7px;
     margin-left: 24px;
     margin-right: 24px;
-
 }
 
 input {
@@ -140,7 +139,7 @@ ion-icon {
 
 footer {
     /* display: flex; */
-    background-color: #d2d2d2;
+    background-color: #c2c2c6;
     height: 100px;
     flex-direction: column;
     justify-content: center;
@@ -382,11 +381,12 @@ textarea {
 
     footer {
         position:initial;
+        height: 90px;
         padding-top: 15px;
         padding-bottom: 15px;
         display: flex;
         direction: column;
-        background-color: #656773;
+        background-color: #4e4f5a;
       
     }
 
@@ -399,22 +399,24 @@ textarea {
     }
 
     .footerDiv {
-        gap: 70px;
+        gap: 50px;
     }
 
     .footerDiv ion-icon {
-        font-size: 22px;
+        font-size: 20px;
     }
     
     .navStyle {
-        background-color: #ffffff;
         position: sticky;
-        top:0
+        top:0;
+        z-index: 1;
+        height: 70px;
     }
 
     .emptyDivHomepage {
-        height: 300px;
-        width: 300px;
+        height: 250px;
+        width: 250px;
+        margin-right: 200px;
         background-size: cover;
         background-image: url("https://ik.imagekit.io/tkvucxczh/ReDI_School__Final_project__Art_Marketplace_/monet.jpg?updatedAt=1688054207384");
     }
@@ -453,9 +455,175 @@ textarea {
         display: flex;
         flex-direction: row;
         align-items: center;
+        justify-content: center;
         gap: 110px;
+        margin-bottom: 50px;
     }
 
 
+    .parItems {
+        margin-left: 250px;
+        margin-right: 250px;
+    } 
+
+    .itemInfoDiv {
+        height:30%;
+        width: 30%;
+        margin-left: 460px;
+    }
+
+    .parItemInfo {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    .itemInfoTxt {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .formStyle {
+        width: 50%;
+    }
+
+    .formStyle input {
+        height: 35px;
+    }
+
+    .ordersDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ordersDiv input {
+        border-radius: 20px;
+    }
+
+    .ordersDiv select {
+        border-radius: 20px;
+    }
+
+    .signupDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .signupDiv input {
+        border-radius: 20px;
+    }
+
+    .loginImg img {
+        height: 230px;
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .centerDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .centerDiv input {
+        border-radius: 20px;
+    }
+
+    .profilepage2 {
+        height: 100px;
+        position: absolute;
+        left: 470px;
+        top: 40px;
+    }
+
+     .profilepage3 {
+        height: 100px;
+        position: absolute;
+        right: 470px;
+        top: 40px;
+     }
+
+    .uploadDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .uploadDiv input {
+        border-radius: 20px;
+    }
+
+    .uploadDiv textarea {
+        border-radius: 20px;
+    }
+
+    .uploadDiv select {
+        border-radius: 20px;
+        height: 35px;
+    }
+
+    .aboutMainDiv img {
+        height: 400px;
+        margin: 24px;
+    }
+
+    .aboutMainDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutMainDiv p {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .aboutMainDiv button {
+        margin-top: 30px;
+    }
+
+
+    .balanceDiv {
+        height: 60px;
+        margin: 10px 24px 24px 24px;
+        width: 40%;
+        border-radius: 30px;
+        justify-content: center;
+        position:static;
+    }
+
+    .OrdersAndCollDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .allOrdersDiv {
+        width: 67%;
+    }
+
+    .myCollectionsDiv {
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .myCollectionsDiv img {
+        height: 250px;
+        width: 250px
+    }
+
+    .placeholder {
+        height: 34px;
+    }
 
 }

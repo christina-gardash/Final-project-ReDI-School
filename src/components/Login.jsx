@@ -21,7 +21,7 @@ function Login( {artists, setartist} ) {
     }
 
   return (
-    <div>
+    <div className="centerDiv">
       <div className="loginImg">
         <img
           src="https://ik.imagekit.io/tkvucxczh/ReDI_School__Final_project__Art_Marketplace_/loginpic.jpg?updatedAt=1688029868035"

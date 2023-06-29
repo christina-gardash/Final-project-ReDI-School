@@ -32,7 +32,7 @@ function Items({
         {categories && categories[picPosition].name}
       </h2>
 
-      {categories && <p className="text-center mt-4 ml-5 mr-5">{categories[picPosition].desc}</p> }
+      {categories && <p className="parItems text-center mt-4 ml-6 mr-6">{categories[picPosition].desc}</p> }
 
       <p className="text-center mt-3 mx-6 mb-2">
         Explore the best artworks of this collection below! <br />

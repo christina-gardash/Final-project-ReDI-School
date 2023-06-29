@@ -152,7 +152,7 @@ function Homepage({
           </button>
         </div>
       </Link>
-      <div className="h-32"></div>
+      <div className="placeholder h-32"></div>
     </div>
   );
 }

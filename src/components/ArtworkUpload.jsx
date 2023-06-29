@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 function ArtworkUpload({ artist, categories }) {
    const navigate = useNavigate()
-   
+
   function submitHandler(e) {
     e.preventDefault();
     
@@ -28,7 +28,7 @@ function ArtworkUpload({ artist, categories }) {
       navigate("/my_collection_and_orders")
   }
   return (
-    <div>
+    <div className="uploadDiv">
       <h2 className="mt-4">Artwork details</h2>
 
       <form className="formStyle" onSubmit={submitHandler}>

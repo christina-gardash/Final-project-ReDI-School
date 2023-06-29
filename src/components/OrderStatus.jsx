@@ -14,7 +14,7 @@ function OrderStatus({itemInfo}) {
   })
   return (
     <div>
-      <div className="orderIcon flex justify-center items-center m-3">
+      <div className="orderIcon flex justify-center items-center m-5">
         <ion-icon name="checkmark-circle-outline"></ion-icon>
       </div>
 
@@ -28,7 +28,7 @@ function OrderStatus({itemInfo}) {
         info@artby.com or call us at 888-766-4657{" "}
       </p>
 
-        <div className="flex justify-center items-center m-4">
+        <div className="flex justify-center items-center m-6">
         <img className='h-52'
   src={itemInfo && itemInfo.pics[0]}
           alt=""

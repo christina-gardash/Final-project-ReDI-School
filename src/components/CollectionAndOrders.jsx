@@ -40,7 +40,7 @@ function CollectionAndOrders({ artist }) {
 
 
   return (
-    <div>
+    <div className="OrdersAndCollDiv">
       <h2 className="text-2xl mt-7 mb-5 font-semibold text-center">
         My collection
       </h2>
@@ -94,7 +94,7 @@ function CollectionAndOrders({ artist }) {
         </div> */}
 
       <div className="balanceDiv">
-        <h2>Total: ${artistOrder && artistOrder.reduce((acc, cur) => acc + Number(cur.amount), 0)} </h2>
+        <h2>Total balance: ${artistOrder && artistOrder.reduce((acc, cur) => acc + Number(cur.amount), 0)} </h2>
       </div>
     </div>
   );

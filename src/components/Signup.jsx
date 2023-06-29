@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Signup() {
   return (
-    <div>
+    <div className="signupDiv">
       <h2 className="text-2xl ml-7 my-5 font-semibold text-center">Sign up</h2>
 
       <form className="formStyle" action="">
