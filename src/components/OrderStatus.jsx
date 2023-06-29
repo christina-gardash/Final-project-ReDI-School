@@ -1,7 +1,17 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React, { useEffect } from 'react'
+import { Link, useNavigate } from 'react-router-dom';
+import ItemInfo from './ItemInfo';
+import Items from './Items';
 
-function OrderStatus() {
+function OrderStatus({itemInfo}) {
+  const navigate = useNavigate()
+
+  useEffect(() =>{
+    if(!itemInfo){
+      alert("Error: No selected artwork")
+      navigate('/')
+    }
+  })
   return (
     <div>
       <div className="orderIcon flex justify-center items-center m-3">
@@ -18,12 +28,12 @@ function OrderStatus() {
         info@artby.com or call us at 888-766-4657{" "}
       </p>
 
-      <div className="flex justify-center items-center m-4">
+        <div className="flex justify-center items-center m-4">
         <img className='h-52'
-          src="https://ik.imagekit.io/tkvucxczh/ReDI_School__Final_project__Art_Marketplace_/order_status.jpg?updatedAt=1687856456780"
+  src={itemInfo && itemInfo.pics[0]}
           alt=""
-        />
-      </div>
+        /></div>
+       
 
       <Link to={"/"}>
         <div className="grid justify-items-center mb-6">

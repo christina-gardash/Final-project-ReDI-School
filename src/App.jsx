@@ -75,13 +75,13 @@ function App() {
 
           <Route path="/myprofile" element={ <Profile artists={artists} />  }/>
 
-          <Route path="/upload_artwork" element={ <ArtworkUpload/> }/>
+          <Route path="/upload_artwork" element={ <ArtworkUpload categories={categories} artist={artist}/> }/>
 
           <Route path="/my_collection_and_orders" element={ <CollectionAndOrders artworks={artworks} artist={artist}/> }/>
 
           <Route path="/create_your_order" element={ <OrderInfo itemInfo={itemInfo}/> }/>
 
-          <Route path="/order_status" element={ <OrderStatus/> }/>
+          <Route path="/order_status" element={ <OrderStatus itemInfo={itemInfo}/> }/>
 
       </Routes>
 

@@ -5,6 +5,18 @@ import Artworks from "./Artworks";
 function CollectionAndOrders({ artist }) {
   const [artistWork, setArtistWork] = useState();
   const [artistOrder, setArtistOrder] = useState();
+  // const [myBalance, setmyBalance] = useState(0)
+
+  function remove(e) {
+    const result = artistWork.filter(i => i.id != e)
+    axios.delete(
+      `https://my-backend-data-json.onrender.com/artWorks/${e}`
+    )
+      .then((i) => console.log(i))
+      .catch((i) => console.log(i));
+    setArtistWork(result)
+    
+  }
 
   useEffect(() => {
     axios(
@@ -18,6 +30,14 @@ function CollectionAndOrders({ artist }) {
       .then((i) => setArtistOrder(i.data))
       .catch((i) => console.log(i));
   }, []);
+
+  // function f () {
+  //   // setmyBalance((i) => (i = i + {myBalance}))
+  //   console.log(i);
+  // }
+  // }
+
+
 
   return (
     <div>
@@ -39,7 +59,7 @@ function CollectionAndOrders({ artist }) {
               <div className="myCollectionsDiv">
                 {/* <p className="font-semibold text-center p-1">{i.name}</p> */}
                 <img className="imgCollOrders" src={i.pics} alt="" />
-                <button className="deleteBtn">
+                <button onClick={() => remove(i.id)} className="deleteBtn">
                   <ion-icon name="trash"></ion-icon>Delete
                 </button>
               </div>
@@ -52,19 +72,17 @@ function CollectionAndOrders({ artist }) {
 
       {artistOrder &&
         artistOrder.map((j) => (
-          <div className="allOrdersDiv flex direction-column gap-7">
+          <div className="allOrdersDiv flex direction-column">
             <div className="orderDiv">
               <div className="orderText">
                 <p className="font-bold">Order #: {j.id}</p>
                 <p>{j.date}</p>
               </div>
 
-              {artistWork &&
-                artistWork.map((i) => (
                   <div className="orderPic">
-                    <img className="h-14 w-14" src={i.pics[0]} alt="" />
+                    <ion-icon name="bag-handle-outline"></ion-icon>
                   </div>
-                ))}
+            
             </div>
           </div>
         ))}
@@ -76,7 +94,7 @@ function CollectionAndOrders({ artist }) {
         </div> */}
 
       <div className="balanceDiv">
-        <h2>My balance: $100</h2>
+        <h2>Total: ${artistOrder && artistOrder.reduce((acc, cur) => acc + Number(cur.amount), 0)} </h2>
       </div>
     </div>
   );

@@ -1,13 +1,14 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 function OrderInfo({ itemInfo }) {
   const [paymentMethods, setPaymentMethods] = useState();
   const [deliveryTypes, setDeliveryTypes] = useState();
+  const navigate = useNavigate()
 
   function submitHandler(e) {
     e.preventDefault();
-
+const date = new Date()
     axios
       .post("https://my-backend-data-json.onrender.com/ordersInfo", {
         artWorkId: itemInfo.id,
@@ -20,9 +21,14 @@ function OrderInfo({ itemInfo }) {
         country: e.target.country.value,
         paymentMethod: e.target.payment.value,
         deliveryType: e.target.delivery.value,
+        artistId: itemInfo.artistId,
+        amount : itemInfo.price,
+        date: `${date.getDate()}/${Number(date.getMonth()) + 1}/${date.getFullYear()}`
       })
       .then((i) => console.log(i.data))
       .catch((i) => console.log(i));
+
+      navigate("/order_status")
   }
 
   useEffect(() => {
@@ -59,11 +65,7 @@ function OrderInfo({ itemInfo }) {
         </select>
 
 
-
         <label htmlFor="">Payment type</label>
-
-
-
 
         {/* <input type="text" name="payment" id="payment" /> */}
         <select name="payment" id="payment" className="select select-bordered w-full max-w-xs">

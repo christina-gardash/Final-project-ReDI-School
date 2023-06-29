@@ -28,7 +28,7 @@ function Login( {artists, setartist} ) {
           alt=""
         />
       </div>
-      <h2 className="text-2xl mt-3 font-semibold text-center">
+      <h2 className="text-2xl mt-8 font-semibold text-center">
         Welcome back!
       </h2>
 
@@ -39,7 +39,7 @@ function Login( {artists, setartist} ) {
         <input type="password" name="password" id="password" />
 
         <div className="loginCTA">
-          <h2 className="text-2xl ml-6 my-2 text-center font-semibold">
+          <h2 className="text-2xl ml-6 my-8 text-center font-semibold">
             Log in
           </h2>
           <button type="submit" className="button1 btn-circle">❯❯</button>

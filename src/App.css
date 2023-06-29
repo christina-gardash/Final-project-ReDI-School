@@ -1,13 +1,17 @@
 body {
-    background-color: #f1f1f1;
+    background-color: #eeeeee;
 }
 
 .color_main {
-    background-color: #777EC0;
+    background-color: #7e86d6;
 }
 
 .color_green {
     background-color: rgb(20, 163, 115)
+}
+
+.color_purple {
+    color:#8279cb
 }
 
 
@@ -20,7 +24,8 @@ body {
 }
 
 .navStyle {
-    background-color: #777EC0;
+    /* background-color: #777EC0; */
+    background-color: #d4dce6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,17 +140,17 @@ ion-icon {
 
 footer {
     /* display: flex; */
-    background-color: #e8eaec;
+    background-color: #d2d2d2;
     height: 100px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: sticky;
+    position: fixed;
     bottom: 0;
 }
 
 .footerDiv ion-icon {
-    font-size: 32px;
+    font-size: 28px;
     margin-bottom: 5px;
     color:#3c3c3cba;
 }
@@ -207,31 +212,39 @@ textarea {
 
 
 .orderDiv {
-    height: 80px;
-    margin: 0 24px 24px 24px;
-    width: 90%;
+    height: 60px;
+    width: 60%;
     border: 0.5px solid rgb(145, 160, 187);
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    border-radius: 20px;
+    /* gap: 20px; */
     justify-content: space-around;
-    align-items: center
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.orderPic ion-icon {
+    height: 40px;
+    color: #3C3C3C;
 }
  
 .balanceDiv {
-    height: 80px;
+    height: 50px;
     margin: 10px 24px 24px 24px;
     width: 90%;
     background-color:#d3e6d3;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     display: flex;
     justify-content: space-around;
-    align-items: center
+    align-items: center;
+    position: absolute;
+    bottom:100px;
 }
 
 .balanceDiv h2 {
     font-weight: 700;
-    color:#3C3C3C
+    color:#3C3C3C;
 }
 
 .itemInfoImg {
@@ -271,20 +284,18 @@ textarea {
 }
 
 .loginImg img {
-    height: 215px;
-    margin-top: 15px;
-    border-radius: 20px;
+    height: 270px;
+    width: 100%
 }
 
 .imgCollOrders {
-    height: 130px;
-    width: 130px;
+    height: 120px;
+    width: 120px;
     background-repeat: no-repeat;
 }
 
 
 .myCollectionsDiv {
-    padding-right:24px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -300,9 +311,9 @@ textarea {
     border-radius: 10px;
     text-align: center;
     height: 30px;
-    width: 130px;
+    width: 120px;
     padding-right: 28px;
-    margin-top: 7px;
+    margin-top: 10px;
     font-weight: 600;
 }
 
@@ -332,22 +343,6 @@ textarea {
     height: 17px;
 }
 
-/* .emptyDiv {
-    height: 130px;
-    width: 130px;
-    background-color: #d7d7d7;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-}
-
-.emptyDiv h2 {
-    font-size: 35px;
-    color:#575252;
-} */
-
 
 .uploadDiv {
     display: flex;
@@ -358,8 +353,109 @@ textarea {
 .allCollectionsDiv {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    justify-content: space-evenly;
+    align-items: center;
     margin-left: 24px;
     margin-right: 24px;
 }
 
+.allOrdersDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    /* .aboutMainDiv */
+
+    .displayNone {
+        display:initial;
+        height: 10px;
+        color:#3C3C3C;
+        width: 100%;
+        padding-left:10px
+    }
+
+    footer {
+        position:initial;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: flex;
+        direction: column;
+        background-color: #656773;
+      
+    }
+
+    .footerDiv p {
+        color: whitesmoke;
+    }
+
+    .footerDiv ion-icon {
+        color: whitesmoke;
+    }
+
+    .footerDiv {
+        gap: 70px;
+    }
+
+    .footerDiv ion-icon {
+        font-size: 22px;
+    }
+    
+    .navStyle {
+        background-color: #ffffff;
+        position: sticky;
+        top:0
+    }
+
+    .emptyDivHomepage {
+        height: 300px;
+        width: 300px;
+        background-size: cover;
+        background-image: url("https://ik.imagekit.io/tkvucxczh/ReDI_School__Final_project__Art_Marketplace_/monet.jpg?updatedAt=1688054207384");
+    }
+
+    .div1 {
+        display: flex;
+        flex-direction: row;
+        gap: 90px;
+    }
+
+    body {
+        background-color: #c3c8f2;
+    }
+
+    .bnDiv button {
+        height: 30px;
+        width: 30px;
+        background-color: #ffffff;
+        color: #3C3C3C;
+        padding: 0;
+        margin-top: 0;
+    }
+
+
+    .color_purple {
+        color: #292626;
+    }
+
+    .collectArt {
+        padding-right: 100px;
+        padding-top: 20px;
+    }
+
+
+    .whatIsArtby {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 110px;
+    }
+
+
+
+}
