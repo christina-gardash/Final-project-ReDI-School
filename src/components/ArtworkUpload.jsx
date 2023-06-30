@@ -1,13 +1,19 @@
 import axios from "axios";
-import React from "react";
+import React, { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 function ArtworkUpload({ artist, categories }) {
    const navigate = useNavigate()
 
+   useEffect(() =>{
+      if(!artist){
+        alert("Error: You need to log in into the account")
+        navigate('/')
+      }
+    })
+
   function submitHandler(e) {
-    e.preventDefault();
-    
+    e.preventDefault();    
 
     axios
       .post("https://my-backend-data-json.onrender.com/artWorks", {

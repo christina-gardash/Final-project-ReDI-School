@@ -1,11 +1,20 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import Artworks from "./Artworks";
+import { useNavigate } from "react-router-dom";
+import ItemInfo from "./ItemInfo";
 
 function CollectionAndOrders({ artist }) {
   const [artistWork, setArtistWork] = useState();
   const [artistOrder, setArtistOrder] = useState();
-  // const [myBalance, setmyBalance] = useState(0)
+  const navigate = useNavigate()
+
+  // useEffect(() =>{
+  //   if(!artist){
+  //     alert("Error: You need to log in into the account")
+  //     navigate('/')
+  //   }
+  // })
 
   function remove(e) {
     const result = artistWork.filter(i => i.id != e)
@@ -19,6 +28,13 @@ function CollectionAndOrders({ artist }) {
   }
 
   useEffect(() => {
+
+    if(!artist){
+      alert("Error: You need to log in into the account")
+      navigate('/')
+    }
+  
+
     axios(
       `https://my-backend-data-json.onrender.com/artWorks/?artistId=${artist.id}`
     )
@@ -30,12 +46,6 @@ function CollectionAndOrders({ artist }) {
       .then((i) => setArtistOrder(i.data))
       .catch((i) => console.log(i));
   }, []);
-
-  // function f () {
-  //   // setmyBalance((i) => (i = i + {myBalance}))
-  //   console.log(i);
-  // }
-  // }
 
 
 

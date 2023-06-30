@@ -2,7 +2,12 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
+// import { ToastContainer, toast } from 'react-toastify';
+// import 'react-toastify/dist/ReactToastify.css';
+
 function Login( {artists, setartist} ) {
+
+    // const notify = () => toast("This user is not found!");
 
     const navigate = useNavigate();
     const SubmitHandler = (e) => {
@@ -16,6 +21,7 @@ function Login( {artists, setartist} ) {
             localStorage.setItem("userfName", person.fName)
             localStorage.setItem("userlName", person.lName)
         } else {
+          //  const notify = () => toast("This user is not found!");
             alert("User is not found")
         }
     }
